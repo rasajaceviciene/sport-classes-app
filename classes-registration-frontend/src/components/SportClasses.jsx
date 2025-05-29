@@ -17,7 +17,8 @@ const SportClasses = () => {
 
 return (
   <div className="container my-4">
-    <h1>Sporto užsiėmimų sąrašas</h1>
+    <h1>Sportuok Lengvai</h1>
+    <h2>Sporto užsiėmimų sąrašas</h2>
 
       {loading && (
         <div className="d-flex justify-content-center my-3">
