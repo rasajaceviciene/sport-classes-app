@@ -17,7 +17,21 @@ const SportClasses = () => {
 
 return (
   <div className="container my-4">
-    <h1>Sportuok Lengvai</h1>
+    <div className="row mb-4">
+      <div className="col-md-5 d-flex flex-column justify-content-center">
+        <h1>Sportuok lengvai</h1>
+        <p>
+          Prisijunkite prie geriausių sporto užsiėmimų ir lavinkite savo įgūdžius kartu su patyrusiais treneriais!
+        </p>
+      </div>
+      <div className="col-md-7">
+        <img
+          src="/sport.jpg"
+          alt="Seminar banner"
+          className="img-fluid rounded"
+        />
+      </div>
+    </div>
     <h2>Sporto užsiėmimų sąrašas</h2>
 
       {loading && (
